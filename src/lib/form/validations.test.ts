@@ -22,7 +22,7 @@ describe("test validation function", function () {
                 ]
             }
         ]);
-        expect(result.errors.length).toEqual(1);
+        expect(result.fields['name'].errors.length).toEqual(1);
     });
     it('should not return errors', function () {
         const result = validateModel({name: '123'}, [
@@ -33,7 +33,7 @@ describe("test validation function", function () {
                 ]
             }
         ]);
-        expect(result.errors.length).toEqual(0);
+        expect(result.fields['name'].errors.length).toEqual(0);
     });
 
 });
