@@ -44,13 +44,14 @@ const App: React.FC = () => {
   return (
     <div className="pt-4 pb-4">
         <div className="container">
+            <h1>Students manager</h1>
             <div className="mb-3" id="formWrapper">
                 <StudentForm change={(data) => dispatch(studentChangeEditModel(data))}
                              reset={() => dispatch(studentResetEditModel())}
                              model={studentsState.form.model}
                              isNew={studentsState.form.isNew} submit={submitHandler}/>
             </div>
-            <table className="table table-striped">
+            <table className="table table-striped table-responsive-lg">
                 <thead>
                     <tr>
                         <th>id</th>
