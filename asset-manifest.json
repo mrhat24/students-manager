@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/students-manager/static/css/main.02ae14b9.chunk.css",
+    "main.js": "/students-manager/static/js/main.1e0f84b7.chunk.js",
+    "main.js.map": "/students-manager/static/js/main.1e0f84b7.chunk.js.map",
+    "runtime-main.js": "/students-manager/static/js/runtime-main.2e4a5307.js",
+    "runtime-main.js.map": "/students-manager/static/js/runtime-main.2e4a5307.js.map",
+    "static/js/2.2cade251.chunk.js": "/students-manager/static/js/2.2cade251.chunk.js",
+    "static/js/2.2cade251.chunk.js.map": "/students-manager/static/js/2.2cade251.chunk.js.map",
+    "index.html": "/students-manager/index.html",
+    "precache-manifest.ee3c315afe4e371ebadd536592a34117.js": "/students-manager/precache-manifest.ee3c315afe4e371ebadd536592a34117.js",
+    "service-worker.js": "/students-manager/service-worker.js",
+    "static/css/main.02ae14b9.chunk.css.map": "/students-manager/static/css/main.02ae14b9.chunk.css.map",
+    "static/js/2.2cade251.chunk.js.LICENSE": "/students-manager/static/js/2.2cade251.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e4a5307.js",
+    "static/js/2.2cade251.chunk.js",
+    "static/css/main.02ae14b9.chunk.css",
+    "static/js/main.1e0f84b7.chunk.js"
+  ]
+}
